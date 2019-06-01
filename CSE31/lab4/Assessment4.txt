@@ -1,0 +1,11 @@
+1 - hello defined to hold a maximum of 6 elements,
+    which gets overwritten ultimately generating the error.
+
+2 - One way to fix the bug is to initialize 'hello' with enough space to hold the elements in 'hello' and 'world'
+ 'hello[20]'
+
+3 - compile the program with the 'g' flag and then run 'gdb' followed by the executable
+ C doesn't check bounds so memory management is more flexible and easier to compile
+
+4 - pro-memory management flexibility
+    con-hard to find errors and unnecessary difficulty

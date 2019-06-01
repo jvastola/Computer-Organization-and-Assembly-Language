@@ -1,0 +1,13 @@
+1.
+hexadecimal: 0x4B800000
+1.6777216E7
+
+2.
+hexadecimal: 0x4B800000
+
+3.
+0x4B800000
+0x4B800000
+0x40000001
+
+4.  no it is not associative

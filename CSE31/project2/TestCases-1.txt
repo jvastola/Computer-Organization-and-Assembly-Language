@@ -1,0 +1,65 @@
+Test case #1:
+Welcome to BobCat Candy, home to the famous BobCat Bars!
+Please enter the price of a BobCat Bar:
+50
+Please enter the number of wrappers needed to exchange for a new bar:
+50
+How, how much do you have?
+50
+Good! Let me run the number ...
+You first buy 1 bars.
+With $50, you will receive a maximum of 1 BobCat Bars!
+
+Test case #2:
+Welcome to BobCat Candy, home to the famous BobCat Bars!
+Please enter the price of a BobCat Bar:
+1
+Please enter the number of wrappers needed to exchange for a new bar:
+5
+How, how much do you have?
+10
+Good! Let me run the number ...
+You first buy 10 bars.
+Then, you will get another 2 bars.
+With $10, you will receive a maximum of 12 BobCat Bars!
+
+Test case #3:
+Welcome to BobCat Candy, home to the famous BobCat Bars!
+Please enter the price of a BobCat Bar:
+5
+Please enter the number of wrappers needed to exchange for a new bar:
+3
+How, how much do you have?
+14
+Good! Let me run the number ...
+You first buy 2 bars.
+With $14, you will receive a maximum of 2 BobCat Bars!
+
+Test case #4:
+Welcome to BobCat Candy, home to the famous BobCat Bars!
+Please enter the price of a BobCat Bar:
+123
+Please enter the number of wrappers needed to exchange for a new bar:
+132
+How, how much do you have?
+100000
+Good! Let me run the number ...
+You first buy 813 bars.
+Then, you will get another 6 bars.
+With $100000, you will receive a maximum of 819 BobCat Bars!
+
+Test case #5:
+Welcome to BobCat Candy, home to the famous BobCat Bars!
+Please enter the price of a BobCat Bar:
+1
+Please enter the number of wrappers needed to exchange for a new bar:
+7
+How, how much do you have?
+3000
+Good! Let me run the number ...
+You first buy 3000 bars.
+Then, you will get another 428 bars.
+Then, you will get another 61 bars.
+Then, you will get another 8 bars.
+Then, you will get another 1 bars.
+With $3000, you will receive a maximum of 3498 BobCat Bars!

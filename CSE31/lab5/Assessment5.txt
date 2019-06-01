@@ -1,0 +1,20 @@
+1.
+The .data directive gets global variable to use
+The .word directive allocates and initialize space for a variable
+The .text directive is where the code goes
+
+2.
+Check the breakpoint box for the line you want on the execute tab
+
+3.
+Click the green run button to step through code, press the one with 1 to go 1 line at a time
+
+4. In mars gui find the register you want changed and click it to change it
+
+5.
+0x1001000,  the 13th fibonacci number is 233.
+
+6.
+Syscall is used for system services and in our file it prints out the number but can do more mostly input and output
+The value 1 in $v0 is used to print the value in $a0
+The value 10 in $v0 will exit and terminate execution

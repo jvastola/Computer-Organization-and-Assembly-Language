@@ -1,0 +1,34 @@
+Assessment.txt
+
+C1.  What areas of memory (heap or stack) are affected by the statement?
+    line 6:  stack
+    line 7:  stack
+    line 8:  stack
+    line 11: heap
+    line 12: stack
+    line 13: stack
+    line 14: stack
+    line 15: heap
+
+C2.  Does any memory get allocated or freed?
+    line 6:  no
+    line 7:  no
+    line 8:  no
+    line 11: heap
+    line 12: no
+    line 13: no
+    line 14: no
+    line 15: heap
+
+C3.  If C2 is true then where is this memory?
+heap
+
+C4.  Does the statement result in a memory leak?
+    line 6: no
+    line 7: no
+    line 8:  no
+    line 11: yes
+    line 12: no
+    line 13: yes-earlier ptr now points to num
+    line 14: no
+    line 15: no

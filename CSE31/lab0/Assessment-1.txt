@@ -1,0 +1,8 @@
+1.How would you change the executable name from main to cselab?
+gcc main.c -o cselab
+2.What happens when you compile using gcc<source>only?
+the exexutable will be named a by default
+3.Add comments to your program.
+/*  */
+4.Play around with “printf” statements and make sure you understand how to print out values of different variables.Write your answers to questions 1-3 in a text file for submission.
+yes

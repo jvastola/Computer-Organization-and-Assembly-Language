@@ -1,0 +1,54 @@
+1.  2 bugs, incremenet by 4 bytes, check if 0 before increment
+
+2.  Fix, increment pointer by 4 8 bits in byte next should be 4 btyes away, move loop to check before increment
+
+3.  Step through the program line by line to see if it was doing what it was intended to do
+
+4.  The source pointer is initially stored in global storage and moved to $t1 when loading the address
+
+5.  The dest pointer is initially stored on the stack and gets moved to $t2
+
+6.  la $9 for source, la $10 for destination
+
+7.  Line 34 $L6
+
+8.
+    Instruction: addu   $8,$8,1
+    Purpose: +1 count words copied
+    Corresponding C:k++;
+
+    Instruction: sll    $3,$8,2
+    Purpose: Shift increment by 4 bytes to get next element
+    Corresponding C: y = x + source
+
+    Instruction: addu   $5,$7,$9
+    Purpose: Increment address of source array by 4 bytes
+    Corresponding C: ptr = source + z;
+
+    Instruction: addu   $2,$3,$9
+    Purpose: Increment start address of source array
+    Corresponding C: ptr = source + 4x;
+
+    Instruction: addu   $6,$7,$10
+    Purpose: Increment start of destination array by number of bytes
+    Corresponding C: pt2 = dest + z;
+
+    Instruction: lw     $4,0($2)
+    Purpose: Get the i+1 value of the source array.
+    Corresponding C: y = source[z+1];
+
+    Instruction: move   $7,$3
+    Purpose: Move byte increment to $a3
+    Corresponding C: z += 4;
+
+    Instruction: lw     $3,0($5)
+    Purpose: Value of source z to set dest[z]
+    Corresponding C: v = source[z];
+
+    Instruction: sw     $3,0($6)
+    Purpose: Write to dest
+    Corresponding C: dest[z] = v;
+
+    Instruction: bne    $4,$0,$L6
+    Purpose: Check if $4=0 to loop and copy words
+    Corresponding C:   for(y !=0)

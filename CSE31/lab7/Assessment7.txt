@@ -1,0 +1,4 @@
+1.  It may seem to work if int *temp points a valid memory address that can hold an integer not being used.
+
+2.
+Nonvalid address on stack pointer value as value of pointer

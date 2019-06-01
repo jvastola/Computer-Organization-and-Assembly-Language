@@ -1,0 +1,44 @@
+Lab #2
+
+Q1.  How do you run a program in gdb?
+gdb run
+Q2.  How do you pass command line arguments to a program when using gdb?
+set args
+
+Q3.  How do you set a breakpoint in a program?
+break[file:]line
+
+Q4.  How do you set a breakpoint which only occurs when a set of conditions is true (some variables have a certain value)?
+break. . .if (expr)
+
+Q5.  How do you execute the next line of C code in the program after a break?
+next
+
+Q6.  If the next line is a function call, you'll execute the call in one step. How do you execute the C code, line by line, inside the function call?
+until [location]
+
+Q7.  How do you continue running the program after breaking?
+continue
+
+Q8.  How can you see the value of a variable (or even an expression) in gdb?
+print[/f] [expr]
+
+Q9.  How do you configure gdb so it prints the value of a variable after every step?
+display[/f]expr
+
+Q10.  How do you print a list of all variables and their values in the current function?
+info locals
+
+Q11.  How do you exit out of gdb?
+quit
+
+Q12.  What is the bug causing append to not work correctly?
+because it doesnt know where the end of the string is
+
+Q13.  What line caused the segmentation fault?
+15 and 23
+Q14.  How do you fix the line so it works properly?
+reference the memory address instead
+
+Q15.  What is the bug?  How do you fix it?
+its changing the values but needs to change the pointer

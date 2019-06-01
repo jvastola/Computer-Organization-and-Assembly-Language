@@ -1,0 +1,21 @@
+1.
+-1 prints out two characters, '-', and '1', and 1 only prints out one character.
+
+2.
+An absolute value function
+
+3.
+int mystery(unsigned int a)
+{
+   if (a -= 0)
+        return 0;
+return mystery(a-1) + mystery(a-1) +1 ;
+
+}
+
+4.
+7 + (63+31+15+7+3+1+0) = 127
+
+5.
+mystery(32) produces -1, because of overflow.
+4,294,967,295
